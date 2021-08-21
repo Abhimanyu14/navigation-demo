@@ -1,3 +1,26 @@
 <resources>
+
+    <!-- app name -->
     <string name="app_name">Navigation Demo</string>
+
+    <!-- fragment_home.xml -->
+    <string name="fragment_home">Home fragment</string>
+    <string name="fragment_home_button_text">Navigate</string>
+
+    <!-- fragment_search.xml -->
+    <string name="fragment_search">Search fragment</string>
+    <string name="fragment_search_button_text">Navigate</string>
+
+    <!-- fragment_settings.xml -->
+    <string name="fragment_settings">Settings fragment</string>
+    <string name="fragment_settings_button_text">Navigate</string>
+
+    <!-- fragment_data.xml -->
+    <string name="fragment_data">Data fragment</string>
+
+    <!-- menu_bottom_nav.xml -->
+    <string name="menu_bottom_nav_home">Home</string>
+    <string name="menu_bottom_nav_search">Search</string>
+    <string name="menu_bottom_nav_settings">Settings</string>
+
 </resources>
