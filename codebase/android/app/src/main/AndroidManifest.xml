@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationDemo">
         <activity
+            android:name=".navigation.ReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.AmountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.ScannerActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".navigation.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
